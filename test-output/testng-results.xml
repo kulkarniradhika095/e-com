@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-10T11:54:23 IST" name="Default suite" finished-at="2022-09-10T11:55:18 IST" duration-ms="55372">
+    <groups>
+    </groups>
+    <test started-at="2022-09-10T11:54:23 IST" name="Default test" finished-at="2022-09-10T11:55:18 IST" duration-ms="55372">
+      <class name="com.iris22a.ProductTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:54:23 IST" name="setUp" finished-at="2022-09-10T11:54:38 IST" duration-ms="15616" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCategoryListForTopWears()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:54:38 IST" name="verifyCategoryListForTopWears" finished-at="2022-09-10T11:54:54 IST" duration-ms="15537" status="FAIL">
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[class org.openqa.selenium.remote.RemoteWebElement cannot be cast to class org.openqa.selenium.By (org.openqa.selenium.remote.RemoteWebElement and org.openqa.selenium.By are in unnamed module of loader 'app')]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: class org.openqa.selenium.remote.RemoteWebElement cannot be cast to class org.openqa.selenium.By (org.openqa.selenium.remote.RemoteWebElement and org.openqa.selenium.By are in unnamed module of loader 'app')
+at com.iris22.util.WaitFor.elementToBePresent(WaitFor.java:33)
+at com.iris22a.ProductTests.verifyCategoryListForTopWears(ProductTests.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryListForTopWears -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:54:54 IST" name="tearDown" finished-at="2022-09-10T11:54:54 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:54:54 IST" name="setUp" finished-at="2022-09-10T11:54:55 IST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyItemCountOfCasualShirts()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:54:55 IST" name="verifyItemCountOfCasualShirts" finished-at="2022-09-10T11:55:10 IST" duration-ms="15324" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[No match found]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: No match found
+at java.base/java.util.regex.Matcher.group(Matcher.java:644)
+at java.base/java.util.regex.Matcher.group(Matcher.java:603)
+at com.iris22.pages.CasualShirtsPage.getItemCount(CasualShirtsPage.java:18)
+at com.iris22a.ProductTests.verifyItemCountOfCasualShirts(ProductTests.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemCountOfCasualShirts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:55:10 IST" name="tearDown" finished-at="2022-09-10T11:55:11 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:55:11 IST" name="setUp" finished-at="2022-09-10T11:55:11 IST" duration-ms="925" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchResultForPoloMen()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:55:11 IST" name="verifySearchResultForPoloMen" finished-at="2022-09-10T11:55:18 IST" duration-ms="6207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultForPoloMen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.iris22a.ProductTests@5a7fe64f]" started-at="2022-09-10T11:55:18 IST" name="tearDown" finished-at="2022-09-10T11:55:18 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.iris22a.ProductTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

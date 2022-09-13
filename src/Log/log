@@ -1,0 +1,10 @@
+2022-Sep-10 11:55:07,740 [main] com.iris22.pages.HomePage 
+  INFO  Clicked on casual shirts
+2022-Sep-10 11:55:11,069 [main] com.iris22A.keywords.UIKeyword 
+  INFO  Browser is closed successfully!
+2022-Sep-10 11:55:11,998 [main] com.iris22A.keywords.UIKeyword 
+  INFO  Chrome browser has launched successfully..!
+2022-Sep-10 11:55:18,090 [main] com.iris22A.keywords.UIKeyword 
+  INFO  Url is launched!https://www.myntra.com/
+2022-Sep-10 11:55:18,392 [main] com.iris22A.keywords.UIKeyword 
+  INFO  Browser is closed successfully!
